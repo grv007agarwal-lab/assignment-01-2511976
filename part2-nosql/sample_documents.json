@@ -1,0 +1,115 @@
+[
+	{
+		"_id": "ELEC1001",
+		"name": "Samsung 55-inch 4K Smart TV",
+		"category": "Electronics",
+		"brand": "Samsung",
+		"price": 64999,
+		"currency": "INR",
+		"stock": 25,
+		"specifications": {
+			"screen_size": "55 inches",
+			"resolution": "3840x2160",
+			"display_type": "LED",
+			"smart_tv": true,
+			"operating_system": "Tizen",
+			"ports": [
+				{
+					"type": "HDMI",
+					"count": 3
+				},
+				{
+					"type": "USB",
+					"count": 2
+				}
+			],
+			"voltage": "220-240V"
+		},
+		"warranty": {
+			"period": "2 years",
+			"type": "Manufacturer",
+			"covered_components": [
+				"Panel",
+				"Motherboard",
+				"Power Supply"
+			]
+		},
+		"ratings": {
+			"average": 4.5,
+			"reviews_count": 1240
+		}
+	},
+	{
+		"_id": "CLOT2001",
+		"name": "Men's Slim Fit Casual Shirt",
+		"category": "Clothing",
+		"brand": "Levi's",
+		"price": 1999,
+		"currency": "INR",
+		"stock": 100,
+		"attributes": {
+			"material": "Cotton",
+			"fit": "Slim Fit",
+			"pattern": "Solid",
+			"sleeve_type": "Full Sleeve",
+			"gender": "Men"
+		},
+		"sizes_available": [
+			"S",
+			"M",
+			"L",
+			"XL"
+		],
+		"color_variants": [
+			{
+				"color": "Blue",
+				"sku": "CLOT2001-BLU"
+			},
+			{
+				"color": "White",
+				"sku": "CLOT2001-WHT"
+			}
+		],
+		"care_instructions": [
+			"Machine wash cold",
+			"Do not bleach",
+			"Iron at low temperature"
+		],
+		"ratings": {
+			"average": 4.2,
+			"reviews_count": 320
+		}
+	},
+	{
+		"_id": "GROC3001",
+		"name": "Amul Butter 500g",
+		"category": "Groceries",
+		"brand": "Amul",
+		"price": 275,
+		"currency": "INR",
+		"stock": 200,
+		"weight": "500g",
+		"perishable": true,
+		"expiry": {
+			"manufacture_date": "2026-03-01",
+			"expiry_date": "2026-06-01",
+			"shelf_life_days": 90
+		},
+		"nutritional_info": {
+			"serving_size": "10g",
+			"calories": 72,
+			"fat": "8g",
+			"carbohydrates": "0g",
+			"protein": "0g"
+		},
+		"ingredients": [
+			"Milk Fat",
+			"Common Salt"
+		],
+		"storage_instructions": "Keep refrigerated at or below 4°C",
+		"ratings": {
+			"average": 4.7,
+			"reviews_count": 890
+		}
+	}
+]

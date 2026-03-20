@@ -98,4 +98,4 @@ INSERT INTO order_items VALUES
 ('ORD1114','P007',2),
 ('ORD1153','P007',3),
 ('ORD1002','P005',1),
-('ORD1118','P007',5);
+('ORD1118','P006',1);
